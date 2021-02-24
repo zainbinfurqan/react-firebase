@@ -3,5 +3,4 @@ const ConcatName = (data) => {
     if (data.lastname && !data.firstname) return data.lastname
     if (data.firstname && data.lastname) return data.firstname + ' ' + data.lastname
 }
-
 export default ConcatName
